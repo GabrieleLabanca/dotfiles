@@ -17,6 +17,12 @@ set expandtab
 " and for plugins that are filetype specific.
 filetype indent plugin on
 
+" Fortran things
+let fortran_more_precise=1
+let fortran_free_source=1
+let fortran_do_enddo=1
+
+
 " Enable syntax highlighting
 syntax on
 

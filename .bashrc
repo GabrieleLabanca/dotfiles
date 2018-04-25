@@ -119,4 +119,8 @@ export NVM_DIR="$HOME/.nvm"
 alias tesi='cd ~/doc/tesi_magistrale/prg/numerical_1D'
 alias gt='cd ~/doc/green_tracker'
 alias gta='cd ~/doc/green_tracker_analyzer'
+alias jl="~/app/julia-d386e40c17/bin/julia"
 alias py="python3"
+
+# added by Anaconda3 installer
+export PATH="/home/gab/app/anaconda3/bin:$PATH"
