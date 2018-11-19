@@ -1,6 +1,8 @@
 " {{sources}}
 " http://vim.wikia.com/wiki/Example_vimrc
 
+execute pathogen#infect()
+
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
 " use Vim mode instead of pure Vi, it must be the first instruction
@@ -67,3 +69,6 @@ nnoremap <silent> <C-h> <c-w>h
 nnoremap <silent> <C-k> <c-w>k
 nnoremap <silent> <C-j> <c-w>j
 
+" no ex mode
+map q: <Nop>
+nnoremap Q <nop>
